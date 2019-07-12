@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Authentication from './google/Authentication';
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Authentication/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload. hot reloading works!
         </p>
         <a
           className="App-link"
@@ -17,7 +18,7 @@ const App: React.FC = () => {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>  
       </header>
     </div>
   );
