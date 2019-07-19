@@ -6,7 +6,33 @@
         {
             "type": "npm",
             "script": "start",
-            "path": "authentication/",
+            "path": "frontend/",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "path": "frontend/",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "dev",
+            "path": "backend/",
+            "problemMatcher": []
+        },
+        {
+            "label": "build-backend",
+            "type": "typescript",
+            "tsconfig": "backend/tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "path": "backend/",
             "problemMatcher": []
         }
     ]
